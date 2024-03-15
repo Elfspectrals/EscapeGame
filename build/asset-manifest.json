@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd051bf5.css",
+    "main.js": "/static/js/main.308b8da5.js",
+    "static/js/453.192da550.chunk.js": "/static/js/453.192da550.chunk.js",
+    "static/media/backgroundNeon.jpg": "/static/media/backgroundNeon.5536ceebd6d49d974d18.jpg",
+    "index.html": "/index.html",
+    "main.dd051bf5.css.map": "/static/css/main.dd051bf5.css.map",
+    "main.308b8da5.js.map": "/static/js/main.308b8da5.js.map",
+    "453.192da550.chunk.js.map": "/static/js/453.192da550.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd051bf5.css",
+    "static/js/main.308b8da5.js"
+  ]
+}
