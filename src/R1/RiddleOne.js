@@ -3,7 +3,9 @@ import './RiddleOne.css';
 
 import gradeA from '../assets/Grade/1.png';
 import gradeAPlus from '../assets/Grade/2.png';
-// Add more image imports as needed
+
+import { MoveLeft } from 'lucide-react'; 
+import { MoveRight } from 'lucide-react';
 
 const images = [gradeA, gradeAPlus]; // Add more image URLs as needed
 
@@ -20,13 +22,9 @@ const RiddleOne = () => {
 
   return (
     <div className='r1Main'>
-      <button className='arrow' onClick={handlePrev}>
-        PUT SVG
-      </button>
+      <MoveLeft onClick={handlePrev} className='svgArrow'/>
       <img src={images[currentIndex]} id="carousel"alt='riddle1' />
-      <button className='arrow' onClick={handleNext}>
-        PUT SVG
-      </button>
+      <MoveRight onClick={handleNext} className='svgArrow'/>
     </div>
   );
 };
