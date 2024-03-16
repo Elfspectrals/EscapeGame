@@ -14,7 +14,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Error />} />
         <Route path='/r1' element={<RiddleOne/>} />
-
       </Routes>
     </I18nextProvider>
   );
