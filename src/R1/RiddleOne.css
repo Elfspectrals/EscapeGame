@@ -10,15 +10,10 @@
     justify-content: center;
     align-items: center;
 }
-.r1Main p{
-    position: relative;
-    bottom: 4vh;
-    margin: 0 3vw;
-}
-.r1Main img{
+
+#carousel{
     position: relative;
     bottom: 4vh;
     width: 20vw;
     height: 40vw;
-    border: 2px solid white;
 }

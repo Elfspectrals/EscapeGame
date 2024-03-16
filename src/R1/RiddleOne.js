@@ -20,12 +20,12 @@ const RiddleOne = () => {
 
   return (
     <div className='r1Main'>
-      <button className='arrow left' onClick={handlePrev}>
-        &larr;
+      <button className='arrow' onClick={handlePrev}>
+        PUT SVG
       </button>
-      <img src={images[currentIndex]} alt='riddle1' />
-      <button className='arrow right' onClick={handleNext}>
-        &rarr;
+      <img src={images[currentIndex]} id="carousel"alt='riddle1' />
+      <button className='arrow' onClick={handleNext}>
+        PUT SVG
       </button>
     </div>
   );
