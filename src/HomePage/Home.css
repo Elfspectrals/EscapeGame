@@ -7,6 +7,41 @@
     width: 100vw;
     overflow: hidden;
 }
-.projectList {
-    color: white;
+
+.iconLanguage {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .iconLanguage img {
+    width: 100px; 
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; 
+    cursor: pointer;
+  }
+
+
+
+#riddle1 {
+    position: absolute;
+    top: 25%;
+    left: 5rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #87FFFC, 0 0 40px #87FFFC, 0 0 50px #87FFFC, 0 0 60px #87FFFC, 0 0 70px #87FFFC;
+    animation: neon-glow 1.5s infinite alternate;
+}
+
+@keyframes neon-glow {
+    from {
+        scale: 1.5;
+        color: #fd397b;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #87FFFC, 0 0 40px #87FFFC, 0 0 50px #87FFFC, 0 0 60px #87FFFC, 0 0 70px #87FFFC;
+    }
+    to {
+        scale: .75;
+        color: #66EEFF;
+        text-shadow: 0 0 20px #fff, 0 0 30px #FF69FF, 0 0 40px #FF69FF, 0 0 50px #FF69FF, 0 0 60px #FF69FF, 0 0 70px #FF69FF, 0 0 80px #FF69FF;
+    }
 }
