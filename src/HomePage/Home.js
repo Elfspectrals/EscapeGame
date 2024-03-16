@@ -4,6 +4,7 @@ import "./Home.css";
 import { useTranslation } from 'react-i18next';
 import frenchFlag from '../assets/FR-FLAG.png';
 import englishFlag from '../assets/ENG-FLAG.png';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -20,7 +21,9 @@ const Home = () => {
         <img src={englishFlag} alt='englishFlag' onClick={() => changeLanguage('eng')} />
       </div>
       <div className='projectList'>
+        <Link to='/r1'>
         <h1 id='riddle1'>{t('firstRiddle')}</h1>
+        </Link>
       </div>
     </main>
   )
